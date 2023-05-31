@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: montserrat, monospace;
+}
+
+.headerdiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex;
+    align-items: center;
+    color: rgb(1, 5, 122);
+    box-shadow: 0 0 15px rgb(195, 195, 195);
+}
+
+.headertitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.instruction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comingsoon{
+    color: rgb(1, 5, 122);
+    margin-top: 40px;
+}
+
+.backbutton{
+    height: 40px;
+    width: 96px;
+    box-shadow: 0 0 10px rgb(185, 185, 185);
+    border: solid 2px rgb(1, 5, 122);
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(1, 5, 122);
+    font-weight: bold;
+    font-family: montserrat;
+    margin-top: 30px;
+}
