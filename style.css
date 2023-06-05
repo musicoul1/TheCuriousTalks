@@ -5,6 +5,7 @@
 
 body{
     font-family: montserrat, monospace;
+    background-color: rgb(244, 244, 244);
 }
 
 .headerdiv{
@@ -14,7 +15,9 @@ body{
     justify-content: flex;
     align-items: center;
     color: rgb(1, 5, 122);
-    box-shadow: 0 0 15px rgb(195, 195, 195);
+    font-size: smaller;
+    background-color: white;
+    box-shadow: 0 0 15px rgb(202, 202, 202);
 }
 
 .headertitle{
@@ -40,33 +43,39 @@ body{
     align-items: center;
 }
 
-.boxes{
-    height: 48px;
-    width: 288px;
-    box-shadow: 0 0 10px rgb(185, 185, 185);
-    border: solid 2px rgb(1, 5, 122);
-    border-radius: 100px;
-    background-color: rgb(1, 5, 122);
-    color: white;
-    font-family: montserrat;
-    margin: 10px;
-    transition: 0.3s;
+.cards{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgb(198, 198, 198);
+    margin-bottom: 24px;
 }
 
-.boxes:hover{
-    background-color: white;
-    border-color: solid 2px rgb(1, 5, 122);
+.cardimage {
+    width: 300px;
+    border-radius: 16px;
+    margin: 8px;
+}
+
+.cardtitle{
+    /* margin-left: 16px; */
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: bold;
     color: rgb(1, 5, 122);
-    font-weight: bolder;
+}
+
+a:link{
+    text-decoration: none;
 }
 
 .update{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
 
 .updateinfo{
     margin-top: 48px;
+    margin-bottom: 48px;
 }
