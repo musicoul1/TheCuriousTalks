@@ -18,6 +18,7 @@ body{
     font-size: smaller;
     background-color: white;
     box-shadow: 0 0 15px rgb(202, 202, 202);
+    margin-bottom: 20px;
 }
 
 .headertitle{
@@ -25,12 +26,25 @@ body{
     margin-bottom: 10px;
 }
 
+.bannerdiv {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    width: 350px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgb(202, 202, 202);
+}
+
 .letstart{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 24px;
     margin-bottom: 32px;
     color: rgb(1, 5, 122);
 }
