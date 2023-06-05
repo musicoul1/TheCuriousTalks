@@ -117,7 +117,7 @@ a:link{
     }
     
     .banner{
-        width: 350px;
+        width: 330px;
         border-radius: 16px;
         box-shadow: 0 0 15px rgb(202, 202, 202);
     }
@@ -138,7 +138,7 @@ a:link{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: -45px;
+        margin-left: -50px;
     }
 
     .boxcontainer{
