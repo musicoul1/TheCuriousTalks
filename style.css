@@ -55,10 +55,13 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-left: -23px;
+
 }
 
 .boxcontainer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -105,6 +108,7 @@ a:link{
 
 
 @media screen and (max-width: 700px) {
+
     .bannerdiv {
         display: flex;
         flex-direction: center;
@@ -113,7 +117,7 @@ a:link{
     }
     
     .banner{
-        width: 330px;
+        width: 380px;
         border-radius: 16px;
         box-shadow: 0 0 15px rgb(202, 202, 202);
     }
@@ -123,6 +127,7 @@ a:link{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-size: 27px;
         margin-top: 24px;
         margin-bottom: 32px;
         color: rgb(1, 5, 122);
@@ -133,8 +138,9 @@ a:link{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: -30px;
     }
-    
+
     .boxcontainer{
         display: flex;
         flex-direction: column;
