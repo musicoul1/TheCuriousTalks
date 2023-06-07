@@ -14,7 +14,7 @@ body{
     flex-wrap: nowrap;
     justify-content: flex;
     align-items: center;
-    color: rgb(1, 5, 122);
+    color: #01057a;
     font-size: smaller;
     background-color: white;
     box-shadow: 0 0 15px rgb(202, 202, 202);
@@ -26,15 +26,90 @@ body{
     margin-bottom: 10px;
 }
 
-.letstart{
+.bannersection{
+    margin-left: -23px;
+}
+
+.launchcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.launchcards{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgb(198, 198, 198);
+    margin-bottom: 24px;
+    
+}
+
+.launchcardvideo {
+    width: 600px;
+    height: 338px;
+    border-radius: 16px;
+    margin: 8px;
+}
+
+.launchcardtitle{
+    /* margin-left: 16px; */
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: rgb(1, 5, 122);
+}
+
+.letstartbutton{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 24px;
-    margin-bottom: 32px;
-    color: rgb(1, 5, 122);
 }
+
+.letstart{
+    margin-bottom: 32px;
+    background-color: #01057a;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s;
+}
+
+.letstart:hover{
+    background-color: white;
+    border: 1px solid #01057a;
+    cursor: pointer;
+}
+
+.letstart:hover .ls{
+    color: #01057a;
+}
+
+.ls{
+    color: white;
+    padding: 5px 5px 5px 10px;
+    font-family: montserrat;
+    font-size: 25px;
+}
+
+.hr{
+    margin-bottom: 25px;
+    box-shadow: 0 0 15px #01057a;
+}
+
+.maincontenttitle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontenttitle{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
 
 .bannerdiv {
     display: flex;
@@ -109,7 +184,7 @@ a:link{
 
 @media screen and (max-width: 700px) {
 
-    .bannerdiv {
+    /* .bannerdiv {
         display: flex;
         flex-direction: center;
         justify-content: center;
@@ -120,7 +195,7 @@ a:link{
         width: 330px;
         border-radius: 16px;
         box-shadow: 0 0 15px rgb(202, 202, 202);
-    }
+    } */
     
     .letstart{
         display: flex;
@@ -133,6 +208,13 @@ a:link{
         color: rgb(1, 5, 122);
     }
 
+    .ls{
+        color: white;
+        margin: 5px 15px 5px 10px;
+        font-family: montserrat;
+        font-size: 20px;
+    }
+
     .maincontent{
         display: flex;
         flex-direction: column;
@@ -141,27 +223,43 @@ a:link{
         margin-left: -50px;
     }
 
-    .boxcontainer{
+    .maincontenttitle-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+    .maincontenttitle{
+        margin-left: -5px;
+        margin-bottom: 20px;
+    }
+
+    .launchcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: -20px;
+    }
     
-    .cards{
+    .launchcards{
         background-color: white;
         border-radius: 16px;
         box-shadow: 0 0 15px rgb(198, 198, 198);
         margin-bottom: 24px;
+        
     }
     
-    .cardimage {
+    .launchcardvideo {
         width: 300px;
+        height: 168.5px;
         border-radius: 16px;
         margin: 8px;
     }
     
-    .cardtitle{
+    .launchcardtitle{
         /* margin-left: 16px; */
         text-align: center;
         margin-bottom: 16px;

@@ -15,6 +15,7 @@ body{
     background-color: white;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 0 0 15px rgb(202, 202, 202);
+    margin-bottom: 20px;
 }
 
 .mainheading{
@@ -25,17 +26,32 @@ body{
     font-size: 20px;
 }
 
-.info{
+.bannerdiv {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 
-.infop{
-    color: #01057a;
-    font-family: montserrat, monospace;
-    font-size: 20px;
+.banner{
+    width: 800px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgb(202, 202, 202);
+}
+
+@media screen and (max-width: 700px) {
+
+    .bannerdiv {
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .banner{
+        width: 330px;
+        border-radius: 16px;
+        box-shadow: 0 0 15px rgb(202, 202, 202);
+    }
+
 }
