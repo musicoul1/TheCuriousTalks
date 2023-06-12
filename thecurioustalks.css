@@ -26,6 +26,8 @@ body{
     font-size: 20px;
 }
 
+/* banner */
+
 .bannerdiv {
     display: flex;
     flex-direction: center;
@@ -38,6 +40,116 @@ body{
     border-radius: 16px;
     box-shadow: 0 0 15px rgb(202, 202, 202);
 }
+
+/* let's Start */
+
+.letstartdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.letstart{
+    font-family: montserrat;
+    color: rgb(1, 5, 122);
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+/* Cards */
+
+.cardcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgb(198, 198, 198);
+}
+
+.cardvideo{
+    border-radius: 16px;
+    margin: 8px;
+}
+
+.cardtitle{
+    font-family: montserrat;
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: bolder;
+
+}
+
+.notesbuttondiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.notesbutton{
+    margin-bottom: 16px;
+    font-family: montserrat;
+    background-color: rgb(1, 5, 122);
+    color: white;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 16px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.notesbutton:hover{
+    background-color: white;
+    border: 1px solid rgb(1, 5, 122);
+    color: rgb(1, 5, 122);
+}
+
+.update{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-family: montserrat;
+}
+
+.updateinfo{
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.back {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.backbutton {
+    height: 40px;
+    width: 96px;
+    box-shadow: 0 0 10px rgb(185, 185, 185);
+    border: solid 2px rgb(1, 5, 122);
+    border-radius: 100px;
+    background-color: white;
+    color: rgb(1, 5, 122);
+    font-weight: bold;
+    font-family: montserrat;
+    margin-bottom: 24px;
+}
+
+.backbutton:hover {
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 700px) {
 
@@ -52,6 +164,14 @@ body{
         width: 330px;
         border-radius: 16px;
         box-shadow: 0 0 15px rgb(202, 202, 202);
+    }
+
+    .letstart{
+        margin-top: 40px;
+    }
+
+    .card{
+        margin-top: -8px;
     }
 
 }
