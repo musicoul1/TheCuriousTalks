@@ -8,6 +8,8 @@ body{
     background-color: rgb(244, 244, 244);
 }
 
+/* Header */
+
 .headerdiv{
     display: flex;
     flex-direction: column;
@@ -26,90 +28,7 @@ body{
     margin-bottom: 10px;
 }
 
-.bannersection{
-    margin-left: -23px;
-}
-
-.launchcontainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.launchcards{
-    background-color: white;
-    border-radius: 16px;
-    box-shadow: 0 0 15px rgb(198, 198, 198);
-    margin-bottom: 24px;
-    
-}
-
-.launchcardvideo {
-    width: 600px;
-    height: 338px;
-    border-radius: 16px;
-    margin: 8px;
-}
-
-.launchcardtitle{
-    /* margin-left: 16px; */
-    text-align: center;
-    margin-bottom: 16px;
-    font-weight: bold;
-    color: rgb(1, 5, 122);
-}
-
-.letstartbutton{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.letstart{
-    margin-bottom: 32px;
-    background-color: #01057a;
-    border-radius: 5px;
-    border: none;
-    transition: 0.2s;
-}
-
-.letstart:hover{
-    background-color: white;
-    border: 1px solid #01057a;
-    cursor: pointer;
-}
-
-.letstart:hover .ls{
-    color: #01057a;
-}
-
-.ls{
-    color: white;
-    padding: 5px 5px 5px 10px;
-    font-family: montserrat;
-    font-size: 25px;
-}
-
-.hr{
-    margin-bottom: 25px;
-    box-shadow: 0 0 15px #01057a;
-}
-
-.maincontenttitle-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.maincontenttitle{
-    margin-left: 50px;
-    margin-bottom: 20px;
-}
-
+/* Banner */
 
 .bannerdiv {
     display: flex;
@@ -124,14 +43,73 @@ body{
     box-shadow: 0 0 15px rgb(202, 202, 202);
 }
 
-.maincontent{
+/* New Episode Button */
+
+.NewEpisodebutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NewEpisode{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    background-color: #01057a;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s;
+}
+
+.NewEpisode:hover{
+    background-color: white;
+    border: 1px solid #01057a;
+    cursor: pointer;
+}
+
+.NewEpisode:hover .NE{
+    color: #01057a;
+}
+
+.NE{
+    color: white;
+    padding: 8px 10px 11px 17px;
+    font-family: montserrat;
+    font-size: 20px;
+}
+
+/* horizontal rule  */
+
+.hr{
+    margin-bottom: 25px;
+    box-shadow: 0 0 15px #01057a;
+}
+
+/* Playlist Title */
+
+.playlisttitle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlisttitle{
+    /* margin-left: 50px; */
+    margin-bottom: 20px;
+}
+
+
+/* Playlist Section  */
+
+.playlist{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: -23px;
-
+    margin-left: -48px;
+    margin-bottom: 32px;
 }
 
 .boxcontainer{
@@ -141,7 +119,7 @@ body{
     align-items: center;
 }
 
-.cards{
+.playlistcard{
     background-color: white;
     border-radius: 16px;
     box-shadow: 0 0 15px rgb(198, 198, 198);
@@ -167,6 +145,63 @@ a:link{
     text-decoration: none;
 }
 
+/* Episodes Section */
+
+.Episodes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.Episodecard{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgb(198, 198, 198);
+}
+
+.Episodecardvideo{
+    border-radius: 16px;
+    margin: 8px;
+}
+
+.Episodecardtitle{
+    font-family: montserrat;
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: bolder;
+
+}
+
+.notesbuttondiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.notesbutton{
+    margin-bottom: 16px;
+    font-family: montserrat;
+    background-color: rgb(1, 5, 122);
+    color: white;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 16px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.notesbutton:hover{
+    background-color: white;
+    border: 1px solid rgb(1, 5, 122);
+    color: rgb(1, 5, 122);
+}
+
+/* Update Instruction */
+
 .update{
     display: flex;
     flex-direction: row;
@@ -184,7 +219,7 @@ a:link{
 
 @media screen and (max-width: 700px) {
 
-    /* .bannerdiv {
+    .bannerdiv {
         display: flex;
         flex-direction: center;
         justify-content: center;
@@ -195,79 +230,6 @@ a:link{
         width: 330px;
         border-radius: 16px;
         box-shadow: 0 0 15px rgb(202, 202, 202);
-    } */
-    
-    .letstart{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 27px;
-        margin-top: 24px;
-        margin-bottom: 32px;
-        color: rgb(1, 5, 122);
-    }
-
-    .ls{
-        color: white;
-        margin: 5px 10px 5px 10px;
-        font-family: montserrat;
-        font-size: 20px;
-    }
-
-    .maincontent{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: -50px;
-    }
-
-    .maincontenttitle-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .maincontenttitle{
-        margin-left: -5px;
-        margin-bottom: 20px;
-    }
-
-    .launchcontainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    
-    .launchcards{
-        background-color: white;
-        border-radius: 16px;
-        box-shadow: 0 0 15px rgb(198, 198, 198);
-        margin-bottom: 24px;
-        
-    }
-    
-    .launchcardvideo {
-        width: 300px;
-        height: 168px;
-        border-radius: 16px;
-        margin: 8px;
-    }
-    
-    .launchcardtitle{
-        /* margin-left: 16px; */
-        text-align: center;
-        margin-bottom: 16px;
-        font-weight: bold;
-        color: rgb(1, 5, 122);
-    }
-    
-    a:link{
-        text-decoration: none;
     }
     
     .update{
