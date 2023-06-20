@@ -69,6 +69,31 @@ body {
     color: rgb(1, 5, 122);
 }
 
+.notesbuttondiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.notesbutton{
+    margin-bottom: 16px;
+    font-family: montserrat;
+    background-color: rgb(1, 5, 122);
+    color: white;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 16px;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.notesbutton:hover{
+    background-color: white;
+    border: 1px solid rgb(1, 5, 122);
+    color: rgb(1, 5, 122);
+}
+
 /* Update Instruction */
 
 .update {
